@@ -31,18 +31,18 @@ export default function Home() {
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
+            href="https://blog.gladstar.sch.ng/p/our-privacy-policy-statement.html?m=1"
             className={styles.card}
           >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <h3>Our Privacy Policy &rarr;</h3>
+            <p></p>
           </a>
 
           <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://blog.gladstar.sch.ng/p/data-deletion-policy.html"
             className={styles.card}
           >
-            <h3>Deploy &rarr;</h3>
+            <h3>Data Deletion Policy &rarr;</h3>
             <p>
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
