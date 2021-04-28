@@ -21,7 +21,7 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a href="https://play.google.com/store/apps/dev?id=5244432553974148442" className={styles.card}>
-            <h3>About Our Educational Apps;</h3>
+            <h3>Our Educational Apps;</h3>
             <p>Find in-depth information about Our Educational Apps</p>
           </a>
 
@@ -44,7 +44,7 @@ export default function Home() {
           >
             <h3>Data Deletion Policy &rarr;</h3>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+          
             </p>
           </a>
         </div>
