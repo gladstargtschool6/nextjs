@@ -15,7 +15,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
+          Facilitating Functional Education For The Next Innovators entrepreneurs and leaders{' '}
           <code className={styles.code}>pages/index.js</code>
         </p>
 
