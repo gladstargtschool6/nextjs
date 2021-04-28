@@ -16,12 +16,12 @@ export default function Home() {
 
         <p className={styles.description}>
           Facilitating Functional Education For The Next Innovators entrepreneurs and leaders{' '}
-          <code className={styles.code}>pages/index.js</code>
+          <code className={styles.code}></code>
         </p>
 
         <div className={styles.grid}>
           <a href="https://play.google.com/store/apps/dev?id=5244432553974148442" className={styles.card}>
-            <h3>About Us;</h3>
+            <h3>About Our Educational Apps;</h3>
             <p>Find in-depth information about Our Educational Apps</p>
           </a>
 
