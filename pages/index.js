@@ -25,7 +25,7 @@ export default function Home() {
             <p>Find in-depth information about Our Educational Apps</p>
           </a>
 
-          <a href="https://imdvvfcbtrfewysxgrnr.supabase.co" className={styles.card}>
+          <a href="http://localhost:3000/api/hello" className={styles.card}>
             <h3>Learn &rarr;</h3>
             <p>Subscribe and Learn via our interactive courses with quizzes!</p>
           </a>
