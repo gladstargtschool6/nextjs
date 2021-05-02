@@ -26,16 +26,12 @@ export default function Home() {
            <Pricing products={products} />
          }
 
-         export async function getStaticProps() {
-           const products = await getActiveProductsWithPrices();
-
-           return {
-             props: {
-               products
-             },
-             revalidate: 60
-           };
-}
+         async function printProduct () {
+           const products = await getProductNames();
+           const promises = products.map(p => getProduct(p));
+           let results = [];
+           results = await Promise.all(promises);
+        }
 
        </div>
         <div className={styles.grid}>
