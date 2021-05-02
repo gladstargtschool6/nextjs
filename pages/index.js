@@ -25,9 +25,9 @@ export default function Home() {
             <p>Find in-depth information about Our Educational Apps</p>
           </a>
 
-          <a href="/5244432553974148442-338861/2f09cd36081c41ffa4558a2c84890fb75e7499a1/" className={styles.card}>
+          <a href="https://blog.gladstar.sch.ng/?m=1" className={styles.card}>
             <h3>Learn &rarr;</h3>
-            <p>Subscribe and Learn via our interactive courses with quizzes!</p>
+            <p>Learn Soft Skills and get inspired by via our blog </p>
           </a>
 
           <a
