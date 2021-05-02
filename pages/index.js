@@ -20,21 +20,21 @@ export default function Home() {
         </p>
        <div>
          import Pricing from '@/components/Pricing';
-import { getActiveProductsWithPrices } from '@/utils/supabase-client';
+         import { getActiveProductsWithPrices } from '@/utils/supabase-client';
 
-export default function PricingPage({ products }) {
-  return <Pricing products={products} />;
-}
+         export default function PricingPage({ products }) {
+           <Pricing products={products} />;
+         }
 
-export async function getStaticProps() {
-  const products = await getActiveProductsWithPrices();
+         export async function getStaticProps() {
+           const products = await getActiveProductsWithPrices();
 
-  return {
-    props: {
-      products
-    },
-    revalidate: 60
-  };
+           return {
+             props: {
+               products
+             },
+             revalidate: 60
+           };
 }
 
        </div>
