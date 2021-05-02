@@ -23,7 +23,7 @@ export default function Home() {
          import { getActiveProductsWithPrices } from '@/utils/supabase-client';
 
          export default function PricingPage({ products }) {
-           <Pricing products={products} />;
+           <Pricing products={products} />
          }
 
          export async function getStaticProps() {
