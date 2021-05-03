@@ -28,7 +28,7 @@ export default function Home() {
 
          async function printProduct () {
            products = getProductNames()
-           promises = products.map(p => getProduct(p));
+           }promises = products.map(p => getProduct(p));
            let results = [];
            results = await Promise.all(promises);
         }
