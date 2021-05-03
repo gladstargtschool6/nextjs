@@ -32,7 +32,6 @@ export default function Home() {
            let results = [];
            results = await Promise.all(promises);
         }
-
        </div>
         <div className={styles.grid}>
           <a href="https://play.google.com/store/apps/dev?id=5244432553974148442" className={styles.card}>
