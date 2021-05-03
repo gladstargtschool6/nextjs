@@ -18,6 +18,9 @@ export default function Home() {
           Facilitating Functional Education For The Next Innovators entrepreneurs and leaders{' '}
           <code className={styles.code}></code>
         </p>
+    <div id="inline_ad">    
+	  <data:1639191272987391_2360388014201043,1639191272987391_2555614208011755/>
+	</div>
        <div>
          import Pricing from '@/components/Pricing';
          import { getActiveProductsWithPrices } from '@/utils/supabase-client';
@@ -33,6 +36,9 @@ export default function Home() {
            results = await Promise.all(promises);
         }
        </div>
+  <div id="inline_ad">    
+	  <data:1639191272987391_2360388014201043,1639191272987391_2555614208011755/>
+	</div>
         <div className={styles.grid}>
           <a href="https://play.google.com/store/apps/dev?id=5244432553974148442" className={styles.card}>
             <h3>Our Educational Apps;</h3>
