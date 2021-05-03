@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.wGladstarGTSchool_9279984",
+    "sha256_cert_fingerprints":
+    ["14:1E:63:33:A2:FC:EF:78:06:5B:64:CA:6F:63:34:59:04:B6:E9:14:23:E5:8F:A3:01:32:73:C5:9B:9F:09:21"]
+  }
+}]
