@@ -11,14 +11,14 @@
 }
 
 .link:focus {
-  @apply outline-none text-accents-8 ring-2 ring-pink ring-opacity-50;
+  @import outline-none text-accents-8 ring-2 ring-pink ring-opacity-50;
 }
 
 .logo {
-  @apply cursor-pointer rounded-full transform duration-100 ease-in-out;
+  @import cursor-pointer rounded-full transform duration-100 ease-in-out;
 
   &:hover {
-    @apply shadow-md;
+    @import shadow-md;
     transform: scale(1.05);
   }
 }
