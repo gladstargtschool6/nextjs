@@ -18,9 +18,8 @@ export default function Home() {
           Facilitating Functional Education For The Next Innovators entrepreneurs and leaders{' '}
           <code className={styles.code}></code>
         </p>
-    <div id="inline_ad">    
-	  <data:1639191272987391_2360388014201043,1639191272987391_2555614208011755/>
-	</div>
+        
+	  
        <div>
          import Pricing from '@/components/Pricing';
          import { getActiveProductsWithPrices } from '@/utils/supabase-client';
@@ -36,14 +35,13 @@ export default function Home() {
            results = await Promise.all(promises);
         }
        </div>
-  <div id="inline_ad">    
-	  <data:1639191272987391_2360388014201043,1639191272987391_2555614208011755/>
-	</div>
+  
         <div className={styles.grid}>
           <a href="https://play.google.com/store/apps/dev?id=5244432553974148442" className={styles.card}>
             <h3>Our Educational Apps;</h3>
             <p>Find in-depth information about Our Educational Apps</p>
-          </a>
+          </a>   
+	  <data:1639191272987391_2360388014201043,1639191272987391_2555614208011755/>
 
           <a href="https://blog.gladstar.sch.ng/?m=1" className={styles.card}>
             <h3>Learn &rarr;</h3>
@@ -55,7 +53,7 @@ export default function Home() {
             className={styles.card}
           >
             <h3>Our Privacy Policy &rarr;</h3>
-            <p></p>
+            <p><data:1639191272987391_2360388014201043,1639191272987391_2555614208011755/><data:1639191272987391_2360388014201043,1639191272987391_2555614208011755/></p>
           </a>
 
           <a
