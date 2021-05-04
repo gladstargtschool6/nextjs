@@ -41,7 +41,6 @@ export default function Home() {
             <h3>Our Educational Apps;</h3>
             <p>Find in-depth information about Our Educational Apps</p>
           </a>   
-	  <data:1639191272987391_2360388014201043,1639191272987391_2555614208011755/>
 
           <a href="https://blog.gladstar.sch.ng/?m=1" className={styles.card}>
             <h3>Learn &rarr;</h3>
@@ -53,7 +52,7 @@ export default function Home() {
             className={styles.card}
           >
             <h3>Our Privacy Policy &rarr;</h3>
-            <p><data:1639191272987391_2360388014201043,1639191272987391_2555614208011755/><data:1639191272987391_2360388014201043,1639191272987391_2555614208011755/></p>
+            <p></p>
           </a>
 
           <a
