@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import s from './Navbar.module.css';
+import './Navbar.module.css';
 
 import Logo from '@/components/icons/Logo';
 import { useUser } from '@/utils/useUser';
